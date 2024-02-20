@@ -1,0 +1,17 @@
+/* RESET  */
+body {
+    margin: 0px;
+}
+
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+img.header-logo {
+    height: 40px;
+}
+
+main {
+    background-color: #eee;
+}
