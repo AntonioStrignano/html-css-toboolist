@@ -51,8 +51,13 @@ article header button.active {
 }
 
 /* sezioni liste */
+
 article div {
     padding: 30px 60px;
+}
+
+article div section:not(:first-child) {
+    margin-top: 30px;
 }
 
 section h1.titolo-lista {
@@ -82,10 +87,14 @@ ul.todolist span.checkmark {
 }
 
 ul.todolist span.editorial {
+    background-color: #30A9ED;
+}
+
+ul.todolist span.categoria {
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: white;
-    background-color: #30A9ED;
     padding: 5px 10px;
     border-radius: 10px;
 }
