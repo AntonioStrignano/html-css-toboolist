@@ -70,6 +70,10 @@ ul.todolist {
     margin-top: 15px;
 }
 
+ul.todolist li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 ul.todolist li p {
     display: inline;
     margin: 0 5px;
@@ -79,11 +83,23 @@ ul.todolist li p {
 ul.todolist span.checkmark {
     display: inline-block;
     color: #9DE4D7;
-    border: solid 1px #9DE4D7;
+    border: solid 2px #9DE4D7;
     border-radius: 100%;
     width: 20px;
     height: 20px;
     text-align: center;
+    line-height: 20px;
+}
+
+ul.todolist span.crossed {
+    display: inline-block;
+    color: #FB2415;
+    border: solid 2px #FB2415;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
 }
 
 ul.todolist span.editorial {
@@ -97,4 +113,16 @@ ul.todolist span.categoria {
     color: white;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+ul.todolist span.q1-goals {
+    background-color: #AB5DE6;
+}
+
+ul.todolist span.recuiting {
+    background-color: #2CC6AB;
+}
+
+ul.todolist span.mobile {
+    background-color: #FB9B01;
 }
