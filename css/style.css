@@ -13,5 +13,28 @@ img.header-logo {
 }
 
 main {
-    background-color: #eee;
+    background-color: #f7f8f9;
+    padding: 30px;
+}
+
+article {
+    margin: auto;
+    max-width: 800px;
+}
+
+article header {
+    padding: 10px 50px;
+    border-bottom: solid 2px #f7f8f9;
+}
+
+article header button {
+    border: solid 1px #dadfe2;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 8px;
+}
+
+article header button.active {
+    border: solid 1px #14AAF5;
+    background-color: #14AAF5;
 }
