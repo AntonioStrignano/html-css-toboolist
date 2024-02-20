@@ -55,35 +55,39 @@ div.toboolist div.sezione-pulsanti button.active {
 
 /* sezioni liste */
 
-div.toboolist div {
+div.toboolist ul.todolist {
     padding: 30px 60px;
 }
 
-div.toboolist div section:not(:first-child) {
+div.toboolist ul.todolist li:not(:first-child) {
     margin-top: 30px;
 }
 
-section h2.titolo-lista {
+li h2.titolo-lista {
     font-family: Arial, Helvetica, sans-serif;
     color: #555;
 }
 
 ul.todolist {
     list-style-type: none;
+}
+
+ul.todolist_sottolista {
+    list-style-type: none;
     margin-top: 15px;
 }
 
-ul.todolist li:not(:last-child) {
+ul.todolist_sottolista li:not(:last-child) {
     margin-bottom: 20px;
 }
 
-ul.todolist li p {
+ul.todolist_sottolista li p {
     display: inline;
     margin: 0 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.todolist span.checkmark {
+ul.todolist_sottolista span.checkmark {
     display: inline-block;
     color: #9DE4D7;
     border: solid 2px #9DE4D7;
@@ -94,7 +98,7 @@ ul.todolist span.checkmark {
     line-height: 20px;
 }
 
-ul.todolist span.crossed {
+ul.todolist_sottolista span.crossed {
     display: inline-block;
     color: #FB2415;
     border: solid 2px #FB2415;
@@ -105,11 +109,11 @@ ul.todolist span.crossed {
     line-height: 20px;
 }
 
-ul.todolist span.editorial {
+ul.todolist_sottolista span.editorial {
     background-color: #30A9ED;
 }
 
-ul.todolist span.categoria {
+ul.todolist_sottolista span.categoria {
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
@@ -118,22 +122,22 @@ ul.todolist span.categoria {
     border-radius: 10px;
 }
 
-ul.todolist span.q1-goals {
+ul.todolist_sottolista span.q1-goals {
     background-color: #AB5DE6;
 }
 
-ul.todolist span.recuiting {
+ul.todolist_sottolista span.recuiting {
     background-color: #2CC6AB;
 }
 
-ul.todolist span.mobile {
+ul.todolist_sottolista span.mobile {
     background-color: #FB9B01;
 }
 
-ul.todolist span.website {
+ul.todolist_sottolista span.website {
     background-color: #EC4A9D;
 }
 
-ul.todolist span.sales {
+ul.todolist_sottolista span.sales {
     background-color: #A3D116;
 }
