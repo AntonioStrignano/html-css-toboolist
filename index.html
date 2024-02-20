@@ -9,22 +9,33 @@
 </head>
 
 <body>
-    <header>
-        <img class="header-logo" src="img/Toboolist-logo.jpg" alt="logo toboolist">
+    <header class="main-header">
+        <a href="/"> <img class="header-logo" src="img/Toboolist-logo.jpg" alt="logo toboolist"></a>
     </header>
 
     <main>
-        <article>
+        <article class="container">
             <header>
                 <button class="active">Add Task</button>
                 <button>Add Section</button>
             </header>
-            <!-- new task -->
-            <section></section>
-            <!-- today -->
-            <section></section>
-            <!-- upcoming -->
-            <section></section>
+            <div>
+                <!-- new task -->
+                <section>
+                    <h1 class="titolo-lista">&blacktriangledown; New Task</h1>
+                    <ul class="todolist">
+                        <li>
+                            <span class="checkmark">&checkmark;</span>
+                            <p>Quarterly Newsletter</p>
+                            <span class="editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </section>
+                <!-- today -->
+                <section></section>
+                <!-- upcoming -->
+                <section></section>
+            </div>
         </article>
     </main>
 </body>
