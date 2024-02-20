@@ -1,15 +1,17 @@
 /* RESET  */
-body {
+* {
     margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    padding: 10px;
+    padding: 8px;
     background-color: white;
 }
 
 img.header-logo {
-    height: 40px;
+    height: 55px;
 }
 
 main {
@@ -19,7 +21,7 @@ main {
 
 article {
     margin: auto;
-    max-width: 800px;
+    max-width: 1350px;
 }
 
 article header {
