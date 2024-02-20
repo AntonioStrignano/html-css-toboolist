@@ -27,40 +27,40 @@ main {
 
 
 /* contenuto pagina */
-article {
+div.toboolist {
     max-width: 1350px;
     background-color: white;
 }
 
 /* sezione pulsanti  */
-article header {
+div.toboolist div.sezione-pulsanti {
     padding: 10px 50px;
     border-bottom: solid 2px #f7f8f9;
 }
 
-article header button {
+div.toboolist div.sezione-pulsanti button {
     border: solid 1px #dadfe2;
     border-radius: 5px;
     background-color: white;
     padding: 5px 8px;
 }
 
-article header button.active {
+div.toboolist div.sezione-pulsanti button.active {
     border: solid 1px #14AAF5;
     background-color: #14AAF5;
 }
 
 /* sezioni liste */
 
-article div {
+div.toboolist div {
     padding: 30px 60px;
 }
 
-article div section:not(:first-child) {
+div.toboolist div section:not(:first-child) {
     margin-top: 30px;
 }
 
-section h1.titolo-lista {
+section h2.titolo-lista {
     font-family: Arial, Helvetica, sans-serif;
     color: #555;
 }
