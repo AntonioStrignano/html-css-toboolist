@@ -16,9 +16,11 @@ img.header-logo {
     height: 55px;
 }
 
+/* main */
 main {
     background-color: #f7f8f9;
     padding: 30px;
+    min-height: 850px;
 }
 
 .container {
@@ -30,6 +32,7 @@ main {
 div.toboolist {
     max-width: 1350px;
     background-color: white;
+    border-radius: 5px;
 }
 
 /* sezione pulsanti  */
